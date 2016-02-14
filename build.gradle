@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-1.0"
+version = "1.7.10-2016-02-14"
 group= "com.example.examplemod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "examplemod"
 
@@ -40,7 +40,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 		
-	runtime fileTree(dir: 'E:/mod_dev/ModA/lib', include: '*-dev.jar')
+	// runtime fileTree(dir: 'E:/mod_dev/ModA/lib', include: '*-dev.jar')
 }
 
 processResources
