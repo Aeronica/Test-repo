@@ -1,2 +1,1 @@
-# Test-repo
-Hello World
+This is a test
