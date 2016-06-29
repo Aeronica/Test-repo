@@ -1,12 +1,12 @@
 package com.example.examplemod;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ExampleTab extends CreativeTabs {
 
@@ -17,7 +17,7 @@ public class ExampleTab extends CreativeTabs {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public String getTranslatedTabLabel() {
-		return I18n.format("creativeTabs.testtab.title", new Object[0]);
+		return I18n.format("creativeTabs.examplemod.testtab.title", new Object[0]);
 	};
 
 	@Override
