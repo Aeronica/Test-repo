@@ -30,6 +30,7 @@ $RECYCLE.BIN/
 .project
 .settings
 .gradle
+.launch
 gradlew
 
 bin
