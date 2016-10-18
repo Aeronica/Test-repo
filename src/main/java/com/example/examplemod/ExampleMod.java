@@ -21,6 +21,6 @@ public class ExampleMod
         System.out.println("CACTUS        >> "+Blocks.cactus.getUnlocalizedName());
         System.out.println("DIAMOND BLOCK >> "+Blocks.diamond_block.getUnlocalizedName());
         System.out.println("BEACON BLOCK  >> "+Blocks.beacon.getUnlocalizedName());
-        System.out.println("CLAY BLOCK  >> "+Blocks.clay.getUnlocalizedName());
+        System.out.println("CLAY BLOCK    >> "+Blocks.clay.getUnlocalizedName());
     }
 }
