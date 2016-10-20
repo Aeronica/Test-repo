@@ -22,6 +22,7 @@ $RECYCLE.BIN/
 # =========================
 *.bat
 *.exe
+!gradlew.bat
 
 # =========================
 # Project Files Files
@@ -31,11 +32,10 @@ $RECYCLE.BIN/
 .settings
 .gradle
 .launch
-gradlew
+
 
 bin
 build
-gradle
 run
 lib
 
