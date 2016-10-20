@@ -23,7 +23,7 @@ public class ExampleTab extends CreativeTabs {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public ItemStack getIconItemStack() {
-		return new ItemStack(Items.apple, 1, 0);
+		return new ItemStack(Items.APPLE, 1, 0);
 	}
 
 	@Override
