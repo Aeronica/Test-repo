@@ -1,9 +1,8 @@
-package com.example.examplemod;
+    package com.example.examplemod;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -27,7 +26,8 @@ public class ExampleTab extends CreativeTabs {
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return null;
+    @SideOnly(Side.CLIENT)
+	public ItemStack getTabIconItem() {
+		return ItemStack.EMPTY;
 	}
 }
