@@ -22,10 +22,7 @@ public class ExampleMod
         System.out.println("DIAMOND BLOCK >> "+Blocks.DIAMOND_BLOCK.getUnlocalizedName());
         System.out.println("BEACON BLOCK  >> "+Blocks.BEACON.getUnlocalizedName());
         System.out.println("CLAY BLOCK    >> "+Blocks.CLAY.getUnlocalizedName());
-<<<<<<< HEAD
-=======
         System.out.println("ANVIL BLOCK   >> "+Blocks.ANVIL.getUnlocalizedName());
         System.out.println("BEDROCK BLOCK >> "+Blocks.BEDROCK.getUnlocalizedName());        
->>>>>>> 7908462... Added the BEDROCK Block.
     }
 }
