@@ -16,11 +16,13 @@ public class ExampleMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-		// some example code
+        // some example code
         System.out.println("DIRT BLOCK    >> "+Blocks.DIRT.getUnlocalizedName());
         System.out.println("CACTUS        >> "+Blocks.CACTUS.getUnlocalizedName());
         System.out.println("DIAMOND BLOCK >> "+Blocks.DIAMOND_BLOCK.getUnlocalizedName());
         System.out.println("BEACON BLOCK  >> "+Blocks.BEACON.getUnlocalizedName());
         System.out.println("CLAY BLOCK    >> "+Blocks.CLAY.getUnlocalizedName());
+        System.out.println("ANVIL BLOCK   >> "+Blocks.ANVIL.getUnlocalizedName());
+        System.out.println("BEDROCK BLOCK >> "+Blocks.BEDROCK.getUnlocalizedName());        
     }
 }
