@@ -24,5 +24,6 @@ public class ExampleMod
         System.out.println("CLAY BLOCK    >> "+Blocks.CLAY.getUnlocalizedName());
         System.out.println("ANVIL BLOCK   >> "+Blocks.ANVIL.getUnlocalizedName());
         System.out.println("BEDROCK BLOCK >> "+Blocks.BEDROCK.getUnlocalizedName());        
+        System.out.println("AIR BLOCK     >> "+Blocks.AIR.getUnlocalizedName());        
     }
 }
