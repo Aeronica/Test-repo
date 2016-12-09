@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 public class ExampleMod
 {
     public static final String MODID = "examplemod";
-    public static final String VERSION = "1.9-2016-10-20";
+    public static final String VERSION = "1.10.2-2016-12-09";
     public static final CreativeTabs TAB_EXAMPLE = new ExampleTab(CreativeTabs.getNextID(), ExampleMod.MODID);
     
     @EventHandler
@@ -22,5 +22,6 @@ public class ExampleMod
         System.out.println("DIAMOND BLOCK >> "+Blocks.DIAMOND_BLOCK.getUnlocalizedName());
         System.out.println("BEACON BLOCK  >> "+Blocks.BEACON.getUnlocalizedName());
         System.out.println("CLAY BLOCK    >> "+Blocks.CLAY.getUnlocalizedName());
+        System.out.println("ANVIL BLOCK   >> "+Blocks.ANVIL.getUnlocalizedName());
     }
 }
